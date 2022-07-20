@@ -13,6 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+
+Route::get('/', 'HomeController@home')->name('home.index');
+Route::get('/soundtrack', 'SoundtrackController@soundtrack')->name('soundtrack.index');
+Route::get('/wiki', 'WikiController@wiki')->name('wiki.index');
+Route::get('/wallpapers', 'WallpapersController@wallpapers')->name('wallpapers.index');

@@ -1,0 +1,51 @@
+
+/* Body & Image List Styles
+-------------------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 350%;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    margin: 40;
+    width: 100%;
+}
+body {
+    background: rgba(207, 97, 32, 0.9);
+    padding: 2.5%;
+    }
+    .img-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    }
+    .img-list li {
+    border: 5px solid transparent;
+    box-sizing: border-box;
+    width: 33.33%;
+    float: left;
+    position: relative;
+    cursor: pointer;
+    }
+    .img-list img {
+    max-width: 100%;
+    vertical-align: middle;
+    }
+    
+    /* Image Placeholder Styles
+    -------------------------------------------------------------- */
+    .img-placeholder:before,
+    .img-placeholder:after {
+    padding-top: 33.33%;
+    content: "";
+    display: block;
+    }  
+    .img-placeholder {
+    background: #222;
+    box-shadow: 0 0 0 8px #222 inset, 0 0 0 9px #333 inset;
+    color: #444;
+    line-height: 0;
+    text-align: center;
+    display: block;
+    }

@@ -1,0 +1,129 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,700);
+body {
+	background: rgb(0, 0, 0);
+	background: -webkit-linear-gradient(left top, rgb(0, 0, 0), rgb(0, 0, 0));
+	background: -moz-linear-gradient(bottom right, rgb(0, 0, 0), rgb(0, 0, 0));
+	background: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(0, 0, 0));
+	background-attachment: fixed;
+	color: #fff;
+	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 140%;
+	margin: 0;
+	height: 100%;
+	padding: 0;
+	text-align: center;
+	width: 100%;
+}
+.page_title {
+	font-weight: 300;
+	line-height: 120%;
+	margin: 20px 0;
+	text-shadow: 0 1px 5px rgba(0,0,0,.8);
+	text-transform: uppercase;
+}
+
+/* PEN STYLES ========== */
+.row {
+	margin: 0;
+}
+
+.test_box {
+	padding: 0;
+}
+.test_box .inner {
+	background: #333;
+	display: block;
+	margin: 10px;
+	overflow: hidden;
+}
+.test_box .inner .test_click {
+	-webkit-align-content: center;
+	-ms-flex-line-pack: center;
+	align-content: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	background-color: rgba(0,0,0,.1);
+	color: #fff;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-wrap: wrap;
+	height: 300px;
+	mix-blend-mode: normal;
+	text-align: center;
+	text-decoration: none;
+	-webkit-transition: all 300ms ease;
+	transition: all 300ms ease;
+}
+.test_box .inner .test_click:hover {
+	background-color: rgba(0,0,0,); 
+	mix-blend-mode: hard-light;
+}
+.flex_this {
+	-webkit-align-content: center;
+	-ms-flex-line-pack: center;
+	align-content: center;
+	display: inherit;
+	flex-wrap: inherit;
+	height: auto;
+	margin: 0;
+	padding: 10px;
+	-webkit-transition: all 300ms ease;
+	transition: all 300ms ease;
+	width: 100%;
+
+}
+.test_box .inner .test_click:hover .flex_this {
+	margin-top: -5px;
+}
+
+.test_title {
+	display: block;
+	font-weight: 700;
+	margin: 0 0 20px;
+	width: 100%;
+}
+.test_link {
+	border: 2px solid #fff;
+	display: inline-block;
+	font-size: .8em;
+	font-weight: 700;
+	letter-spacing: .1em;
+	margin: 0 auto;
+	padding: 10px 30px;
+	text-transform: uppercase;
+}
+
+.box-01 .inner {
+	background-image: url('https://aggrogamer.com/assets/1495210857-d6c7a0bf99b9f3e9b6f455b2058043b3.jpg');
+	background-position: 30% 30%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.box-02 .inner {
+	background-image: url('https://cdn.vox-cdn.com/thumbor/pqamgOqFKech4WdFg3AFg49AwyY=/0x0:1920x1080/1600x900/cdn.vox-cdn.com/uploads/chorus_image/image/56049883/header_pict.0.png');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.box-03 .inner {
+	background-image: url('https://wallpapercave.com/wp/wp3540147.png');
+	background-position: 25% 25%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.box-04 .inner {
+	background-image: url('https://www.gamereactor.nl/media/33/lifeisstrange_2603343b.jpg');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.box-05 .inner {
+	background-image: url('https://www.videogameschronicle.com/files/2021/03/life-is-strange-3-true-colors.jpg');
+	background-position: 20% 20%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
